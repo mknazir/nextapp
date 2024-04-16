@@ -1,0 +1,226 @@
+/* @import "https://code.highcharts.com/css/stocktools/gui.css";
+@import "https://code.highcharts.com/css/annotations/popup.css"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.coin-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.coin-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabContainer {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    margin: 20px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .addButton {
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #2e502e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .highlightButton{
+    width: 130px;
+    height: 35px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #2e502e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .nrmlbutton{
+    width: 130px;
+    height: 35px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #AFE1AF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #AFE1AF;
+    border: 2px solid #efffef;
+    color: #efffef;
+  }
+
+  .tabList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tab {
+    background-color: #efffef;
+    border: 1px solid #AFE1AF;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .selectedTab{
+    background-color: #2e502e !important;
+    color: #fff !important;
+  }
+  
+  .tab button {
+    margin-left: 5px;
+    padding: 2px 5px;
+    background-color: #AFE1AF;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .tab button:focus {
+    outline: none;
+  }
+  
+  .detailsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .coin-info{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .chartType{
+    width: 15%;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+  }
+  
+  .intervals{
+    display: flex;
+    gap: 5px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+  }
+  
+  .intervals > button{
+    width: 60px;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .date-time-inputs{
+    display: flex;
+    width: 25%;
+    gap: 5px;
+  }
+  
+  .date-time-inputs > input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+  }
+  
+  .time-modifier{
+    display: flex;
+    width: 15%;
+    gap: 5px;
+  }
+  
+  .time-modifier > button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modifierButton:hover{
+    background: #AFE1AF;
+  }
+  
+  .time-modifier > select{
+    width: 20%;
+    height: 50px;
+    border: none;
+    border: 2px solid #AFE1AF;
+    background: #efffef;
+    border-radius: 5px;
+  }
+  
+  .userName{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .userName > h2{
+    margin: 0px;
+  }
+  
+  .chart{
+    margin-top: 20px;
+  }
+  
+  .activeTab {
+    background-color: #AFE1AF;
+  }
+  
